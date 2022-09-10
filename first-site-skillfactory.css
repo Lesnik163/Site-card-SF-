@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style:normal ;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/Roboto-Regular.ttf)
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/Roboto-Italic.ttf)
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./fonts/Roboto-Bold.ttf)
+}
+@font-face {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/EBGaramond-Medium.ttf)
+}
+@font-face {
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./fonts/EBGaramond-Italic.ttf)
+}
+body {
+    background-image: url(./image/megapolis.jpg);
+    cursor:auto;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+nav {
+    top:5px;
+}
+a {
+    padding : 10px 5px 10px 5px;
+    font-size: 20px;
+}
+.font-type {
+    margin-top: 18px;
+    border:2px dotted rosybrown;
+    text-align: center;
+    width:initial;
+    margin-right: auto ;
+    margin-left: auto;
+    font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif ;
+}
+b {
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(253, 0, 0)
+}
+.about_myself {
+    color:rgb(58, 86, 11);
+    margin-top: 10px;
+} 
+.education {
+    color:red;
+    margin-top: 10px;
+}
+
+.experience{
+    color:rgb(255, 247, 1);
+    margin-top: 10px;
+}
+.hobby {
+    color:rgb(255, 0, 221);
+    margin-top: 10px;
+}
+.how_i_become_developer{
+    color:rgb(255, 119, 0);
+    margin-top: 10px;
+}
+.about_myself:hover,.education:hover,.experience:hover,.hobby:hover,.how_i_become_developer:hover{
+    color:rgb(11, 136, 25);  
+}  
+.about_myself:link:hover,.education:link:hover,.experience:link:hover,.hobby:link:hover,.how_i_become_developer:link:hover{
+    background-color:white;
+}    
+section {
+    margin-bottom: 20px;
+     font-size: 18px;
+}
+i {
+    background-color: hsl(160, 100%, 75%, 0.4);
+}
+img {
+    height: 300px;
+    width: 250px;
+    padding:3px;
+    background-color: rgb(12, 39, 30);
+    margin-top:17px;
+    margin-left:15px;
+    border-radius: 10%;
+    cursor: none;
+    box-shadow: 20px 0px 20px 5px rgb(167, 156, 172),-10px 0px 10px 5px rgb(167, 156, 172) ;   
+}
+
+.font-type:hover {
+    background-color: rgba(230, 204, 55, 0.41);    
+    transition: margin-left 2s ,transform 2s;
+    transition: margin-right 2s ,transform 2s;
+    transform: scale(1.1);   
+}
+.main {
+    font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif ;
+}
+p, a[target="_blank"] {
+    border-left: 7px solid rgb(175, 88, 6);
+    padding-left: 3px;
+}
+p:hover, a[target="_blank"]:hover {
+    color:blue;
+} 
+.footer {
+    font-weight: 900;
+} 
+.first {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 275px);
+    grid-template-rows: auto ;
+    gap:5px;
+}
+ul {
+    font-size: 18px;
+    list-style: none;
+    padding-inline-start: 0;
+}
+@media all and (min-width:867px) and (max-width:1115px) {
+    .first {
+        position:relative;
+    }
+    .movable {
+    position: absolute;
+    top: 517px;
+    left: 112px;
+    max-width: 275px;
+    margin-left: 163px;
+    }
+    .footer {
+        position:relative;
+        top:105px;
+    }
+}
+
+
