@@ -34,7 +34,7 @@
     src: url(./fonts/EBGaramond-Italic.ttf)
 }
 body {
-    background-image: url(./image/megapolis.jpg);
+    background-image: url(./images/megapolis.jpg);
     cursor:auto;
     font-family:'Roboto', Arial, Helvetica, sans-serif;
 }
